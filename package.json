@@ -1,8 +1,10 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@csabyy/js-calculator",
+  "repository": "https://github.com/csabyy/js-calculator.git",
+  "version": "0.0.2",
   "type": "module",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,5 +14,9 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-dts": "^3.6.3"
-  }
+  },
+  "files": [
+    "README.md",
+    "dist/"
+  ]
 }
